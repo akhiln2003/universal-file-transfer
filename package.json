@@ -1,0 +1,32 @@
+{
+  "name": "universal-file-transfer",
+  "version": "1.0.0",
+  "description": "A universal file transfer and format converter.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akhiln2003/universal-file-transfer.git"
+  },
+  "keywords": [
+    "file",
+    "conversion",
+    "universal",
+    "transfer",
+    "npm-package"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^latest-version"
+  },
+  "devDependencies": {
+    "typescript": "^latest-version",
+    "@types/node": "^latest-version",
+    "@types/sharp": "^latest-version"
+  }
+}
